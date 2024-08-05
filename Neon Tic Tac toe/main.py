@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 # Initialize the main window
 root = tk.Tk()
 root.title("Neon Tic Tac Toe")
