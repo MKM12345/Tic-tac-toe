@@ -2,7 +2,7 @@
 
 Alright. There are two versions to this. 
 
-If you want to see the short one of the remote desktop apps, go to [short.py](https://github.com/MKM12345/Youtube-Source-Codes/blob/main/Remote-Desktop/short.py).
+If you want to see the short one of the remote desktop apps, go to [the short script](https://github.com/MKM12345/Youtube-Source-Codes/blob/main/Remote-Desktop/Remote-short.py).
 
 Otherwise, if you want to see the more established, larger app, that I will include in a future youtube video, follow these instructions below to run it and this [link](https://github.com/MKM12345/Youtube-Source-Codes/blob/main/Remote-Desktop/Remote-Big-Project) to get the program.
 
