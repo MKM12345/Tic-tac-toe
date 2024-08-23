@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Typing Animation</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00bfff; /* Hacker blue text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .typing-container {
+            display: flex;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold; /* Bold text */
+        }
+
+        .typing {
+            text-shadow: 0 0 10px #00bfff;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: none; /* Remove border cursor */
+            animation: typing 6s steps(13) 1s forwards; /* Typing animation */
+        }
+
+        .cursor {
+            font-size: 1em; /* Match the cursor size with text */
+            color: #00bfff;
+            animation: blink 0.75s step-end infinite;
+            margin-left: -0.1em; /* Reduce gap between text and cursor */
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 13ch; /* Adjust this to match the text length */
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .typing-container:hover .typing {
+            text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff;
+        }
+    </style>
+</head>
+<body>
+    <div class="typing-container">
+        <div class="typing">hacking...</div>
+        <div class="cursor">_</div>
+    </div>
+</body>
+</html>
